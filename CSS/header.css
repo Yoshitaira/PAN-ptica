@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #3B57E8;
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.container-grid{
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    justify-content: space-between;
+}
+
+.txt1{
+    height: 100%;
+    width: 350px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.txt1 a{
+    text-decoration: none;
+}
+
+.txt1 span:hover{
+    text-decoration: underline;
+}
+
+.txt1 span{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.txt2{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.txt2 a{
+    text-decoration: none;
+}
+
+.txt2 span:hover{
+    text-decoration: underline;
+}
+
+.txt2 span{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+
+.container-grid form{
+    width: 480px;
+    align-items: center;
+    display: flex;
+}
+
+.container-grid input{
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+
+.container-grid buton{
+    width: 30px;
+    height: 30px;
+}
+
+
+.txt3{
+    height: 100%;
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.txt3 a{
+    text-decoration: none;
+}
+
+.txt3 a:hover{
+    text-decoration: underline;
+}
+
+.txt3 span{
+    color: black;
+    font-size: 16px;
+    font-family: 'PT sans', sans-serif;
+}
+
+.category{
+    height: 45px;
+    display: flex;
+    width: 100%;
+}
+
+.txt4{
+    height: 45px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txt4 a{
+    text-decoration: none;
+}
+
+.txt4 span{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
